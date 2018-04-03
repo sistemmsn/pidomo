@@ -1,0 +1,116 @@
+@charset "UTF-8";
+/* Importaciones */
+/*@import url("https://use.fontawesome.com/a412dfafbb.css");*/
+/*@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css");*/
+/*@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800");*/
+/* Importaciones */
+
+/* Fuentes *//*
+@font-face {
+    font-family: 'EJEMPLO';
+    src: url('../fonts/EJEMPLO.eot');
+    src: url('../fonts/EJEMPLO.eot') format('embedded-opentype'),
+         url('../fonts/EJEMPLO.woff2') format('woff2'),
+         url('../fonts/EJEMPLO.woff') format('woff'),
+         url('../fonts/EJEMPLO.ttf') format('truetype'),
+         url('../fonts/EJEMPLO.svg#EJEMPLO') format('svg');
+}
+
+/* Fuentes */
+
+/* Base General */
+pre{
+    display: block;
+    overflow: auto;
+    padding: 15px;
+    word-wrap: break-word;
+    word-break: break-all;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 1.5em 0;
+}
+
+body *{
+    transition: all 0.3s;
+    /*font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;*/
+}
+
+.font-10{font-size: 10px;}
+.font-13{font-size: 13px;}
+.font-15{font-size: 15px;}
+.font-17{font-size: 17px;}
+.font-20{font-size: 20px;}
+.font-23{font-size: 23px;}
+.font-25{font-size: 25px;}
+.font-30{font-size: 30px;}
+.font-33{font-size: 33px;}
+.font-35{font-size: 35px;}
+.font-40{font-size: 40px;}
+.font-45{font-size: 45px;}
+.font-50{font-size: 50px;}
+.font-55{font-size: 55px;}
+.font-60{font-size: 60px;}
+.font-65{font-size: 65px;}
+.font-70{font-size: 70px;}
+.font-75{font-size: 75px;}
+.font-80{font-size: 80px;}
+
+h1{}
+h2{}
+h3{}
+h4{}
+h5{}
+h6{}
+p{}
+
+hr{}
+
+/* Base General */
+
+
+
+/* Contenidos General */
+header{}
+
+section{}
+
+article{}
+
+footer{}
+
+/* Bootstrap */
+
+@media (max-width: 2000px) {
+}
+
+@media (max-width: 1199px) {
+}
+
+@media (max-width: 991px) {
+}
+
+@media (max-width: 767px) {
+}
+
+@media (max-width: 575px) {
+
+}
+/* Bootstrap */
+
+@media screen and (orientation:portrait) {
+    /* Orientación 'portrait' */
+}
+
+@media screen and (orientation:landscape) {
+    /* Orientación 'landscape' */
+}
+
+@-moz-document url-prefix() {
+  .selector {
+     color:lime;
+  }
+}
